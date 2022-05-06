@@ -8,7 +8,7 @@ footer{
     margin: auto;
 }
 .tabla td{
-    border: 15px;
+    border: 15px solid rgba(0, 0, 0, 0.1);
 }
 .btnmas{
     background-color: rgb(68, 65, 71);
