@@ -19,7 +19,7 @@ pre ul{
     padding: 0;
     width: 30%;
 }
-li {
+pre li {
     display: block;
     color: red;
     text-align: center;
