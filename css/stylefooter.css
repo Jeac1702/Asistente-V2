@@ -1,0 +1,51 @@
+.footer {
+    background-color: black;
+    padding: 0.25em;
+    text-align: center;
+    bottom: 0cm;
+    width: 100%;
+}
+
+.footer .grupo-1 {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    padding: 0.5em 0.5em;
+    align-items: center;
+}
+
+.footer .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .grupo-1 .box figure {
+    width: 250px;
+}
+
+.footer .grupo-1 .box h2 {
+    color: white;
+    margin-bottom: .5em;
+    font-size: 20px;
+}
+
+.footer .grupo-1 .box p {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.footer .grupo-1 .box .gal_img {
+    width: 250px;
+    text-align: end;
+}
+
+.footer .grupo-1 img {
+    width: 60%;
+}
