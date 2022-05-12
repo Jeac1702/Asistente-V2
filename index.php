@@ -34,16 +34,16 @@
           <li class="dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tipos de Mangueras</a>
             <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="BajaPresion.html">Baja Presion</a></li>
-              <li><a class="dropdown-item" href="MediaPresion.html">Media Presion</a></li>
-              <li><a class="dropdown-item" href="AltaPresion.html">Alta Presion</a></li>
+              <li><a class="dropdown-item" href="Mangueras.html">Baja Presion</a></li>
+              <li><a class="dropdown-item" href="Mangueras.html">Media Presion</a></li>
+              <li><a class="dropdown-item" href="Mangueras.html">Alta Presion</a></li>
           </li>
         </ul>
         <li class="dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tipos de Conexiones</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="Conexiones a presion.html">Conexión a Presion</a></li>
-              <li><a class="dropdown-item" href="Conexiones para tubing.html">Conexiones para Tubin</a></li>
+              <li><a class="dropdown-item" href="Conexiones.html">Conexiónes a Presion</a></li>
+			  <li><a class="dropdown-item" href="Conexiones.html">Conexión para tubing</a></li>
               <!-- <li><hr class="dropdown-divider"></li> -->                 <!-- Dividivir dentro del submenu -->
         </li>
             </ul>
