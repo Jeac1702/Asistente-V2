@@ -1,0 +1,161 @@
+body{
+	background-image: url(../Resources/Fondos-web-768x480.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+    margin-top: 8em;
+}
+
+h3{
+    text-align: center;
+    color: darkgray;
+}
+
+  /* Estilos Conexiones a Presion */
+#presion .about-title {
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+  }
+  
+  #presion .about-text {
+    line-height: 26px;
+    color: white;
+    text-align: justify;
+  }
+  
+  #presion .about-text:last-child {
+    margin-bottom: 0;
+  }
+
+  #presion img{
+      width: 80%;
+  }
+  /* Termina Conexiones a presion */
+
+  /* Estilos Conexiones Tubing */
+
+  #tubing .about-title {
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+  }
+  
+  #tubing .about-text {
+    line-height: 26px;
+    color: white;
+    text-align: justify;
+  }
+  
+  #tubing .about-text:last-child {
+    margin-bottom: 0;
+  }
+
+  #tubing img{
+      width: 80%;
+  }
+  /* Termina Conexiones Tubing */
+	
+  /* Menu Flotante */
+  #btn-mas{
+    display: none;
+}
+.container-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.scroll a, .btn-mas label{
+    display: block;
+    text-decoration: none;
+    background: #533d3d;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition: all 500ms ease;
+}
+.scroll a:hover{
+    background: #fff;
+    color: #533d3d;
+}
+.scroll a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-mas:checked~ .scroll a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+.btn-mas label{
+    cursor: pointer;
+    background: #533d3d;
+    font-size: 23px;
+}
+#btn-mas:checked ~ .btn-mas label{
+    transform: rotate(135deg);
+    font-size: 25px;
+}
+/* Termina Menu Flotante */
+  
+
+
+/* FOOTER */
+
+.footer {
+    background-color:rgba(1, 1, 15, 0.925) ;
+    padding: 0.25em;
+    text-align: center;
+    bottom: 0cm;
+    width: 100%;
+}
+
+.footer .grupo-1 {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    padding: 0.5em 0.5em;
+    align-items: center;
+}
+
+.footer .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .grupo-1 .box figure {
+    width: 250px;
+}
+
+.footer .grupo-1 .box h2 {
+    color: white;
+    margin-bottom: .5em;
+    font-size: 20px;
+}
+
+.footer .grupo-1 .box p {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.footer .grupo-1 .box .gal_img {
+    width: 250px;
+    text-align: end;
+}
+
+.footer .grupo-1 img {
+    width: 60%;
+}

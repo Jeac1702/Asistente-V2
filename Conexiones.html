@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
-    <link rel="stylesheet" href="css/Conexionesymangueras.css" class="css">
+    <link rel="stylesheet" href="css/conexiones.css" class="css">
     <title>MHINSA</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
@@ -55,67 +55,190 @@
     </div>
   </nav>
 
+  <!-- Menu Flotante -->
+  <div class="container-button">
+    <input type="checkbox" id="btn-mas">
+    <div class="scroll">
+        <a href="#presion" class=""> presion </a>
+        <a href="#tubing" class=""> tubing </a>
+    </div>
+    <div class="btn-mas">
+        <label for="btn-mas" class="fa fa-plus"></label>
+    </div>
+</div>
 
-	    <h1>Conexiónes</h1>
-		<pre>
-		<!-- Separacion Conexiones a presion -->
-		<h2>Barril compresión baja presión de latón</H2>
- Barril para compresión de 3 mm de la serie 60C presentado en varias dimensiones, hecho de latón, cumple con los requisitos funcionales de SAE J-512. El sellado se logra insertando la tubería en el 
- accesorio hasta que toque fondo y apriete la tuerca en la manga de latón para formar una junta de compresión
- <img src = "Resources/conexionbarrril.jpg">
- <h2>Adaptador codo macho de 90° compresión con barril parker</H2>
-Adaptador codo de 90° compresión con barril tipo macho fabricado de latón de la serie 169-C presentado en varias dimensiones.
-►Conexiones de tubo 1/4 x 1/8 tubo
-►Presión de 300 psi
- <img src = "Resources/adaptadorcodom.jpg">
- <h2>Conector hembra compresión baja presión parker</H2>
-Conector tipo hembra compresión de baja presión y vibración de la serie 66 C hecha de latón
-►Temperatura de trabajo de -65° a 200°F
-►Conexión de 1/8 tubo x 1/8 rosca
-►Presión de 300 psi
- <img src = "Resources/adaptadorcodo9.jpg">
- <h2>Conector tee hembra compresión parker</H2>
- Conector TEE hembra compresión hecha de latón para baja presión 300PSI, temperatura de operación de -65° a 200° F, es adecuado para su uso con tubos de cobre, aluminio y termoplásticos en los que la
- vibración excesiva o el movimiento del tubo no están involucrado.
-►Conexión 1/4 x 1/4 x 1/4 pulg
-►Presión de 200 psi
- <img src = "Resources/conectorth.jpg">
- <h2>Terminal tee unión para tubo de polietileno parker</H2>
-Terminal tee con punta espiga para tubo de polietileno de 5/32 pulg, excelente vibración a la resistencia, aplicaciones para agua y aire de baja presión.
-►Temperatura de operación -65° a 90° F
-►Conexiones 5/32 pulg
-►Presión de 150 psi
- <img src = "Resources/terminaltu.jpg">
- <!-- Separacion Conexiones para tubing -->
- <h2>Barril de plástico para conexión de compresión parker</H2>
-Barril accesorio de compresión de baja presión compacto premontado. De copolímero de acetal exclusivo tiene una resistencia superior para resistir el arrastre y el estrés causado por la compresión.
-►Medida 1/4 pulg
-►Presión 150 psi
-►Temperatura de -17 a 65 °C
- <img src = "Resources/Barril de plástico para conexión de compresión parker.jpg">
- <h2>Codo 90° macho para tubing parker</H2>
-Codo macho 90° para tubing, accesorio de compresión compacto premontado, tiene una resistencia superior para resistir el arrastre y el estrés causado por la compresión. Las tuercas Poly-Tite girarán
-alrededor del mango mientras se tensa para evitar la torsión y el debilitamiento del tubo de plástico.
-►Conexiones tubo 1/4 x rosca 1/8 pulg
-►Presión máxima 150 psi tubo termoplástico y 300 psi tubing metalico
- <img src = "Resources/Codo 90° macho para tubing parker.jpg">
- <h2>Conector unión macho para tubing parker</H2>
-Conector unión tipo macho accesorio de compresión compacto premontado, tiene una resistencia superior para resistir el arrastre y el estrés causado por la compresión. Las tuercas Poly-Tite girarán 
-alrededor del mango mientras se tensa para evitar la torsión y el debilitamiento del tubo de plástico
-►Conexión tubo 1/4 x rosca 1/16 pulg
- <img src = "Resources/Conector unión macho para tubing parker.jpg">
- <h2>Unión conexión compresión para tubing parker</H2>
-Unión para tubing para su uso con tubos de metal blando para presiones de hasta 300 PSI y polytubing para presiones de hasta 150 PSI. La funda de acetal cautiva proporciona una elasticidad excepcional 
-que resiste el arrastre y el estrés causado por la compresión.
-►Conexión de 1/2 pulg
-►Fabricado en latón
- <img src = "Resources/Unión conexión compresión para tubing parker.jpg">
- <h2>Unión prestolok conexión rápida para tubing parker</H2>
-Unión de latón niquelado prestolok para conexión y desconexión rápida, mediante la tecnología push-to-connect, para baja presión
-►Conexiones 1/4 x 1/4 pulg
-►Presión de 300 psi
- <img src = "Resources/Unión prestolok conexión rápida para tubing parker.jpg">
-        </pre>
+ <!-- Conexiones a presion -->
+
+ <section id="presion">
+  <div class="container wow fadeInUp">
+    <h3 class="section-title">Conexiones a presion</h3> <br>
+    <div class="row">
+      <div class="col-md-12">
+      </div>
+    </div>
+  </div>
+  <div class="container about-container wow fadeInUp">
+    <div class="row">
+      <div class="col-md-5">
+        <img src = "Resources/conexionbarrril.jpg">
+      </div>
+      <div class="col-md-6  about-content">
+        <h2 class="about-title">Barril compresión baja presión de latón</h2>
+        <p class="about-text">
+          Barril para compresión de 3 mm de la serie 60C presentado en varias dimensiones, hecho de latón, cumple con los requisitos funcionales de SAE J-512. El sellado se logra insertando la tubería en el 
+          accesorio hasta que toque fondo y apriete la tuerca en la manga de latón para formar una junta de compresión.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5 py-2">
+        <img src = "Resources/adaptadorcodom.jpg">
+      </div>
+      <div class="col-md-6  about-content">
+        <h2 class="about-title">Adaptador codo macho de 90° compresión con barril parker</h2>
+        <p class="about-text">
+          Adaptador codo de 90° compresión con barril tipo macho fabricado de latón de la serie 169-C presentado en varias dimensiones.
+        </br> ►Conexiones de tubo 1/4 x 1/8 tubo
+        </br> ►Presión de 300 psi
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5 py-2">
+        <img src = "Resources/adaptadorcodo9.jpg">
+      </div>
+      <div class="col-md-6  about-content">
+        <h2 class="about-title">Conector hembra compresión baja presión parker</h2>
+        <p class="about-text">
+          Conector tipo hembra compresión de baja presión y vibración de la serie 66 C hecha de latón
+        </br> ►Temperatura de trabajo de -65° a 200°F
+        </br> ►Conexión de 1/8 tubo x 1/8 rosca
+        </br> ►Presión de 300 psi
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5 py-2">
+        <img src = "Resources/conectorth.jpg">
+      </div>
+      <div class="col-md-6  about-content">
+        <h2 class="about-title">Conector tee hembra compresión parker</h2>
+        <p class="about-text">
+          Conector TEE hembra compresión hecha de latón para baja presión 300PSI, temperatura de operación de -65° a 200° F, es adecuado para su uso con tubos de cobre, aluminio y termoplásticos en los que la
+              vibración excesiva o el movimiento del tubo no están involucrado.
+        </br> ►Conexión 1/4 x 1/4 x 1/4 pulg
+        </br> ►Presión de 200 psi
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5 py-2">
+        <img src = "Resources/terminaltu.jpg">
+      </div>
+      <div class="col-md-6  about-content">
+        <h2 class="about-title">Terminal tee unión para tubo de polietileno parker</h2>
+        <p class="about-text">
+          Terminal tee con punta espiga para tubo de polietileno de 5/32 pulg, excelente vibración a la resistencia, aplicaciones para agua y aire de baja presión.
+        </br> ►Temperatura de operación -65° a 90° F
+        </br> ►Conexiones 5/32 pulg
+        </br> ►Presión de 150 psi
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Conexiones para tubing -->
+
+<section id="tubing">
+  <div class="container wow fadeInUp py-5">
+    <h3 class="section-title">Conexiones a tubing</h3> <br>
+    <div class="row">
+      <div class="col-md-12">
+      </div>
+    </div>
+  </div>
+  <div class="container about-container wow fadeInUp">
+    <div class="row">
+      <div class="col-md-5">
+        <img src = "Resources/Barril de plástico para conexión de compresión parker.jpg">
+      </div>
+      <div class="col-md-6  about-content">
+        <h2 class="about-title">Barril de plástico para conexión de compresión parker</h2>
+        <p class="about-text">
+          Barril accesorio de compresión de baja presión compacto premontado. De copolímero de acetal exclusivo tiene una resistencia superior para resistir el arrastre y el estrés causado por la compresión.
+        </br> ►Medida 1/4 pulg
+        </br> ►Presión 150 psi
+        </br> ►Temperatura de -17 a 65 °C
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5 py-2">
+        <img src = "Resources/Codo 90° macho para tubing parker.jpg">
+      </div>
+      <div class="col-md-6  about-content">
+        <h2 class="about-title">Codo 90° macho para tubing parker</h2>
+        <p class="about-text">
+          Codo macho 90° para tubing, accesorio de compresión compacto premontado, tiene una resistencia superior para resistir el arrastre y el estrés causado por la compresión. Las tuercas Poly-Tite girarán
+          alrededor del mango mientras se tensa para evitar la torsión y el debilitamiento del tubo de plástico.
+        </br> ►Conexiones tubo 1/4 x rosca 1/8 pulg
+        </br> ►Presión máxima 150 psi tubo termoplástico y 300 psi tubing metalico
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5 py-2">
+        <img src = "Resources/Conector unión macho para tubing parker.jpg">
+      </div>
+      <div class="col-md-6  about-content">
+        <h2 class="about-title">Conector unión macho para tubing parker</h2>
+        <p class="about-text">
+          Conector unión tipo macho accesorio de compresión compacto premontado, tiene una resistencia superior para resistir el arrastre y el estrés causado por la compresión. Las tuercas Poly-Tite girarán 
+        alrededor del mango mientras se tensa para evitar la torsión y el debilitamiento del tubo de plástico
+        </br> ►Conexión tubo 1/4 x rosca 1/16 pulg
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5 py-2">
+        <img src = "Resources/Unión conexión compresión para tubing parker.jpg">
+      </div>
+      <div class="col-md-6  about-content">
+        <h2 class="about-title">Unión conexión compresión para tubing parker</h2>
+        <p class="about-text">
+          Unión para tubing para su uso con tubos de metal blando para presiones de hasta 300 PSI y polytubing para presiones de hasta 150 PSI. La funda de acetal cautiva proporciona una elasticidad excepcional 
+          que resiste el arrastre y el estrés causado por la compresión.
+        </br> ►Conexión de 1/2 pulg
+        </br> ►Fabricado en latón
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5 py-2">
+        <img src = "Resources/Unión prestolok conexión rápida para tubing parker.jpg">
+      </div>
+      <div class="col-md-6  about-content">
+        <h2 class="about-title">Unión prestolok conexión rápida para tubing parker</h2>
+        <p class="about-text">
+          Unión de latón niquelado prestolok para conexión y desconexión rápida, mediante la tecnología push-to-connect, para baja presión.
+        </br> ►Conexiones 1/4 x 1/4 pulg
+        </br> ►Presión de 300 psi
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
 
         <footer class="footer">
           <div class="grupo-1">
