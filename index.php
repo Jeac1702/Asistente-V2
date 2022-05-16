@@ -115,17 +115,14 @@
 
                             <?php
                                 if(!empty($_POST)){
-                                    $manguera = explode(" ", $_POST['PalabraClave']);
-                                    $bandas = explode(" ", $_POST['PalabraClave']);
-                                    $adaptadores = explode(" ", $_POST['PalabraClave']);
-                                    $conexiones = explode(" ", $_POST['PalabraClave']);
+                                    $palabraclave = explode(" ", $_POST['PalabraClave']);                                    
 
-                                    switch ($manguera){
-                                        case ($manguera):
-                                        $query = "SELECT clasificacion, descripcion FROM manguera WHERE clasificacion like '%" . $manguera[0] . "%'";
-                                        for($i = 1; $i < count($manguera); $i++) {
-                                            if(!empty($manguera[$i])) {
-                                                $query .= "WHERE clasificacion like '%" . $manguera[$i] . "%'";
+                                    switch ($palabraclave){
+                                        case ($palabraclave):
+                                        $query = "SELECT * FROM ".$palabraclave[0]." WHERE clasificacion like '%" . $palabraclave[0] . "%'";
+                                        for($i = 1; $i < count($palabraclave); $i++) {
+                                            if(!empty($palabraclave[$i])) {
+                                                $query .= "WHERE clasificacion like '%" . $palabraclave[$i] . "%'";
                                             }
                                         }
                                         $result = $db->query($query);
@@ -147,99 +144,7 @@
                                         echo "<p class='botText'><span>Resultados encontrados: Ninguno</span></p>";                       
                                         }
                                         break;
-                                    }
-                
-                
-                
-                                    switch ($adaptadores){
-                                        case ($adaptadores):
-                                        $query = "SELECT clasificacion, descripcion FROM adaptadores WHERE clasificacion like '%" . $adaptadores[0] . "%'";
-                                        for($i = 1; $i < count($adaptadores); $i++) {
-                                            if(!empty($adaptadores[$i])) {
-                                                $query .= "WHERE clasificacion like '%" . $adaptadores[$i] . "%'";
-                                            }
-                                        }
-                                        $result = $db->query($query);
-                                        echo "<p class='userText'> <span>". $_POST['PalabraClave']."<span></p>";
-                                        echo "<p class='botText'><span> Tenemos algunas de estas cosas: </span></p>";                        
-                                        if (mysqli_num_rows($result) > 0) {
-                                            while ($row = $result->fetch_assoc()) {
-                                                $field1name = $row["clasificacion"];
-                                                $field2name = $row["descripcion"];
-                                                echo "<table class='botText' border>";
-                                                echo "<tr>
-                                                <td width='130px'>".$field1name."</td>
-                                                <td width='200px'>".$field2name."</td>
-                                                </tr>";
-                                                echo "</table>";
-                                            }
-                                            echo "<br>";
-                                        }   
-                                        else{
-                                        echo "<p class='botText'><span>Resultados encontrados: Ninguno</span></p>";
-                                        }
-                                        break;
-                                    }
-
-                                    switch ($conexiones){
-                                        case ($conexiones):
-                                        $query = "SELECT clasificacion, descripcion FROM conexiones WHERE clasificacion like '%" . $conexiones[0] . "%'";
-                                        for($i = 1; $i < count($conexiones); $i++) {
-                                            if(!empty($conexiones[$i])) {
-                                                $query .= "WHERE clasificacion like '%" . $conexiones[$i] . "%'";
-                                            }
-                                        }
-                                        $result = $db->query($query);
-                                        echo "<p class='userText'> <span>". $_POST['PalabraClave']."</span></p>";
-                                        echo "<p class='botText'><span> Tenemos algunas de estas cosas: </span></p>";
-                                        if (mysqli_num_rows($result) > 0) {
-                                            while ($row = $result->fetch_assoc()) {
-                                                $field1name = $row["clasificacion"];
-                                                $field2name = $row["descripcion"];
-                                                echo "<table class='botText' border>";
-                                                echo "<tr>
-                                                <td width='130px'>".$field1name."</td>
-                                                <td width='200px'>".$field2name."</td>
-                                                </tr>";
-                                                echo "</table>";
-                                            }
-                                            echo "<br>";
-                                        }   
-                                        else {
-                                        echo "<p class='botText'><span>Resultados encontrados: Ninguno</span></p>";
-                                        }
-                                        break;
-                                    }
-                
-                    
-                                    switch ($bandas){
-                                        case ($bandas):
-                                        $query = "SELECT clasificacion, descripcion FROM bandas WHERE clasificacion like '%" . $bandas[0] . "%'";
-                                        for($i = 1; $i < count($bandas); $i++) {
-                                            if(!empty($bandas[$i])) {
-                                                $query .= "WHERE clasificacion like '%" . $bandas[$i] . "%'";
-                                            }
-                                        }
-                                        $result = $db->query($query);
-                                        echo "<p class='userText'><span>". $_POST['PalabraClave']."</span></p>";
-                                        echo "<p class='botText'><span> Tenemos algunas de estas cosas: </span></p>";
-                                        if (mysqli_num_rows($result) > 0) {
-                                            while ($row = $result->fetch_assoc()) {
-                                                $field1name = $row["clasificacion"];
-                                                $field2name = $row["descripcion"];
-                                                echo "<table class='botText' border>";
-                                                echo "<tr>
-                                                <td width='130px'>".$field1name."</td>
-                                                <td width='200px'>".$field2name."</td>
-                                                </tr>";
-                                                echo "</table>";
-                                            }
-                                            echo "<br>";
-                                        }   
-                                        else {
-                                        echo "<p class='botText'><span>Resultados encontrados: Ninguno</span></p>";
-                                        }
-                                        break;
+                                    
                                     }                     
                                 }
                                 ?>
