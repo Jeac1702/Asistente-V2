@@ -15,9 +15,9 @@
 
 <body >
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.php"> <img src="Resources/logopng.png" alt="" width="100"> </a>
+      <a class="navbar-brand" href="index.php"> <img src="Resources/logopng.png" alt="" width="50"> </a>
       <button class="navbar-toggler" 
       type="button" 
       data-bs-toggle="collapse" 
@@ -31,25 +31,9 @@
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php">Home</a></li>
-          <li class="dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tipos de Mangueras</a>
-            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="Mangueras.html">Baja Presion</a></li>
-              <li><a class="dropdown-item" href="Mangueras.html">Media Presion</a></li>
-              <li><a class="dropdown-item" href="Mangueras.html">Alta Presion</a></li>
-          </li>
-        </ul>
-        <li class="dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tipos de Conexiones</a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="Conexiones.html">Conexiónes a Presion</a></li>
-			  <li><a class="dropdown-item" href="Conexiones.html">Conexión para tubing</a></li>
-              <!-- <li><hr class="dropdown-divider"></li> -->                 <!-- Dividivir dentro del submenu -->
-        </li>
-            </ul>
+          <li class="nav-item"><a class="nav-link" href="Mangueras.html">Mangueras</a></li>
+          <li class="nav-item"><a class="nav-link" href="Conexiones.html">Conexiones</a></li>
           <li class="nav-item"><a class="nav-link" href="Catálogo.html">Catalogo</a></li>
-          
-
         </ul>
       </div>
     </div>
