@@ -8,6 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/stylecatalogo.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+    <link rel="stylesheet" href="css/conexiones.css" class="css">
     <title>MHINSA</title>
 </head>
 
@@ -15,27 +18,23 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.php"> <img src="Resources/logopng.png" alt="" width="50"> </a>
-          <button class="navbar-toggler" 
-          type="button" 
-          data-bs-toggle="collapse" 
-          data-bs-target="#navbarSupportedContent" 
-          aria-controls="navbarSupportedContent" 
-          aria-expanded="false" 
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    
-          <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="Mangueras.html">Mangueras</a></li>
-              <li class="nav-item"><a class="nav-link" href="Conexiones.html">Conexiones</a></li>
-              <li class="nav-item"><a class="nav-link" href="Catálogo.html">Catalogo</a></li>
-            </ul>
-          </div>
+            <a class="navbar-brand" href="index.php"> <img src="Resources/logopng.png" alt="" width="50"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Mangueras.html">Mangueras</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Conexiones.html">Conexiones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Catálogo.html">Catalogo</a></li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
 
     <main class="container">
         <header>
@@ -44,12 +43,13 @@
     </main>
 
     <div class="container">
+        <div id="Baja">
+            <h3>Mangueras baja y media presión</h3>
+        </div>
         <div class="row row-cols-2 row-cols-md-4 ">
             <div class="col">
-                <div class="card" style="align-items: center;">
+                <div class="card" style="align-items: center;" id="inicio">
                     <img src="Resources/manguerabajap..jpg" class="card-img-top" alt="...">
-
-
                     <p>
                         <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample1"
                             role="button" aria-expanded="false" aria-controls="collapseExample1">
@@ -108,6 +108,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col">
                 <div class="card" style="align-items: center;">
                     <img src="Resources/mangueramediapca.jpg" class="card-img-top" alt="...">
@@ -128,6 +129,11 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div id="Alta">
+            <h3>Mangueras alta presión, barriles y adaptadores</h3>
+        </div>
+        <div class="row row-cols-2 row-cols-md-4 ">
             <div class="col">
                 <div class="card" style="align-items: center;">
                     <img src="Resources/mangueraaltap.jpg" class="card-img-top" alt="...">
@@ -209,7 +215,11 @@
                     </div>
                 </div>
             </div>
-
+        </div>
+        <div id="Conectores">
+            <h3>Conectores y terminales</h3>
+        </div>
+        <div class="row row-cols-2 row-cols-md-4 ">
             <div class="col">
                 <div class="card" style="align-items: center;">
                     <img src="Resources/conectorth.jpg" class="card-img-top" alt="...">
@@ -292,6 +302,11 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div id="Correas">
+            <h3>Correas y bandas</h3>
+        </div>
+        <div class="row row-cols-2 row-cols-md-4 ">
             <div class="col">
                 <div class="card" style="align-items: center;">
                     <img src="Resources/Bandas redondas.jpg" class="card-img-top" alt="...">
@@ -373,6 +388,11 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div id="Adaptadores">
+            <h3>Adaptadores</h3>
+        </div>
+        <div class="row row-cols-2 row-cols-md-4 ">
             <div class="col">
                 <div class="card" style="align-items: center;">
                     <img src="Resources/Adaptador de manguera hidráulica recto.jpg" class="card-img-top" alt="...">
@@ -466,6 +486,11 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div id="Acoples">
+            <h3>Acoples</h3>
+        </div>
+        <div class="row row-cols-2 row-cols-md-4 ">
             <div class="col">
                 <div class="card" style="align-items: center;">
                     <img src="Resources/Acoplamiento rígido de platos.jpg" class="card-img-top" alt="...">
@@ -559,6 +584,11 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div id="Tubos">
+            <h3>Tuberías</h3>
+        </div>
+        <div class="row row-cols-2 row-cols-md-4 ">
             <div class="col">
                 <div class="card" style="align-items: center;">
                     <img src="Resources/Tubería polietileno reticulado.jpg" class="card-img-top" alt="...">
@@ -670,585 +700,23 @@
 
         </div>
     </div>
-
-    <!-- <table class="tabla">
-        <tr>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/manguerabajap..jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample1"
-                            role="button" aria-expanded="false" aria-controls="collapseExample1">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample1">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/mangueramediap.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample2"
-                            role="button" aria-expanded="false" aria-controls="collapseExample2">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample2">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/mangueramediapc.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample3"
-                            role="button" aria-expanded="false" aria-controls="collapseExample3">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample3">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/mangueramediapca.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample4"
-                            role="button" aria-expanded="false" aria-controls="collapseExample4">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample4">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/mangueraaltap.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample5"
-                            role="button" aria-expanded="false" aria-controls="collapseExample5">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample5">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/conexionbarrril.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample6"
-                            role="button" aria-expanded="false" aria-controls="collapseExample6">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample6">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/adaptadorcodom.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample7"
-                            role="button" aria-expanded="false" aria-controls="collapseExample7">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample7">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/adaptadorcodo9.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample8"
-                            role="button" aria-expanded="false" aria-controls="collapseExample8">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample8">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/conectorth.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample9"
-                            role="button" aria-expanded="false" aria-controls="collapseExample9">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample9">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/terminaltu.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample10"
-                            role="button" aria-expanded="false" aria-controls="collapseExample10">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample10">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/tuerca.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample11"
-                            role="button" aria-expanded="false" aria-controls="collapseExample11">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample11">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/codot9.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample12"
-                            role="button" aria-expanded="false" aria-controls="collapseExample12">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample12">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-        </tr>
-		<tr>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/manguerabajap..jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample1"
-                            role="button" aria-expanded="false" aria-controls="collapseExample1">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample1">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/mangueramediap.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample2"
-                            role="button" aria-expanded="false" aria-controls="collapseExample2">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample2">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/mangueramediapc.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample3"
-                            role="button" aria-expanded="false" aria-controls="collapseExample3">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample3">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/mangueramediapca.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample4"
-                            role="button" aria-expanded="false" aria-controls="collapseExample4">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample4">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-        </tr>
-		<tr>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/manguerabajap..jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample1"
-                            role="button" aria-expanded="false" aria-controls="collapseExample1">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample1">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/mangueramediap.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample2"
-                            role="button" aria-expanded="false" aria-controls="collapseExample2">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample2">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/mangueramediapc.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample3"
-                            role="button" aria-expanded="false" aria-controls="collapseExample3">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample3">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/mangueramediapca.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample4"
-                            role="button" aria-expanded="false" aria-controls="collapseExample4">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample4">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-        </tr>
-		<tr>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/manguerabajap..jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample1"
-                            role="button" aria-expanded="false" aria-controls="collapseExample1">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample1">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/mangueramediap.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample2"
-                            role="button" aria-expanded="false" aria-controls="collapseExample2">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample2">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/mangueramediapc.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample3"
-                            role="button" aria-expanded="false" aria-controls="collapseExample3">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample3">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/mangueramediapca.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample4"
-                            role="button" aria-expanded="false" aria-controls="collapseExample4">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample4">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-        </tr>
-		<tr>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/manguerabajap..jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample1"
-                            role="button" aria-expanded="false" aria-controls="collapseExample1">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample1">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/mangueramediap.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample2"
-                            role="button" aria-expanded="false" aria-controls="collapseExample2">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample2">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/mangueramediapc.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample3"
-                            role="button" aria-expanded="false" aria-controls="collapseExample3">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample3">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="width: 15rem;">
-                    <img src="Resources/mangueramediapca.jpg" class="card-img-top" alt="...">
-
-                    <p>
-                        <a class="btn btn-primary btnmas" data-bs-toggle="collapse" href="#collapseExample4"
-                            role="button" aria-expanded="false" aria-controls="collapseExample4">
-                            Conoce más sobre éste modelo
-                        </a>
-                    </p>
-                    <div class="collapse" id="collapseExample4">
-                        <div class="card card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-        </tr>
-
-    </table> -->
-
+    </table>
+    <!-- Menu Flotante -->
+    <div class="container-button">
+        <input type="checkbox" id="btn-mas">
+        <div class="scroll">
+            <a href="#Baja" class="">Baja P.</a>
+            <a href="#Alta" class="">Alta P.</a>
+            <a href="#Conectores" class="">Conect</a>
+            <a href="#Correas" class="">Correas</a>
+            <a href="#Adaptadores" class="">Adapt</a>
+            <a href="#Acoples" class="">Acoples</a>
+            <a href="#Tubos" class="">Tubos</a>
+        </div>
+        <div class="btn-mas">
+            <label for="btn-mas" class="fa fa-plus"></label>
+        </div>
+    </div>
     <footer class="footer">
         <div class="grupo-1">
             <div class="box">
@@ -1264,24 +732,21 @@
                 <p> Tel: 83-54-69-02 </p>
             </div>
             <div class="box">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14380.076319046488!2d-100.281073!3d25.7037923!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf11f19049f63a001!2sMANGUERAS%20HIDRAULICAS%20Y%20NEUMATICAS%20SA%20DE%20CV%20(MHINSA)!5e0!3m2!1ses-419!2smx!4v1652049444730!5m2!1ses-419!2smx" 
-              width="80%" 
-              height="100%" 
-              style="border:0;"
-               allowfullscreen="" 
-               loading="lazy" 
-               referrerpolicy="no-referrer-when-downgrade">
-              </iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14380.076319046488!2d-100.281073!3d25.7037923!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf11f19049f63a001!2sMANGUERAS%20HIDRAULICAS%20Y%20NEUMATICAS%20SA%20DE%20CV%20(MHINSA)!5e0!3m2!1ses-419!2smx!4v1652049444730!5m2!1ses-419!2smx"
+                    width="80%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
-    
+
         </div>
         <div class="grupo-2">
             <small>&copy;2022 <b>MC</b> -a Todos los Derechos Reservados</small>
         </div>
-    
+
     </footer>
 
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
